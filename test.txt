@@ -7,17 +7,13 @@ cat your_home_directory/.ssh/id_rsa.pub (read ssh key)
 git config --global user.name "Your Name"
 git config --global user.mail "email"
 
-CHANGE FROM B
-
-
 git status (view status of files)
 git touch (upload files)
+CHANGES FROM A
 
 git push (upload added files to git (online)) 
 git push origin <branch name>
 git push origin <branch name>:<branch name> (upload from branch to branch)
-
-CHANGE FROM B
 
 git add (adding files to commit(track))
 git reset (reseting added files)
