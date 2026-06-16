@@ -1,0 +1,32 @@
+Git/Gitlab
+
+
+ssh-keygen -t rsa (generating ssh key)
+cat your_home_directory/.ssh/id_rsa.pub (read ssh key)
+
+git config --global user.name "Your Name"
+git config --global user.mail "email"
+
+git status (view status of files)
+git touch (upload files)
+
+git push (upload added files to git (online)) 
+git push origin <branch name>
+git push origin <branch name>:<branch name> (upload from branch to branch)
+
+git add (adding files to commit(track))
+git reset (reseting added files)
+git commit -m (comment)
+
+git log (log)
+git checkout (checkout hash) (checkout specific commit)
+git branch <new branch name>
+git checkout -b <branch name> (creates new branch)
+git branch(list branches)
+git checkout <branch name> 
+
+
+deleting locally/remotely
+
+git branch —delete (-d) <branch name>
+git push origin —delete <branch name>
