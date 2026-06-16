@@ -9,11 +9,15 @@ git config --global user.mail "email"
 
 git status (view status of files)
 git touch (upload files)
-CHANGES FROM A
-
+CHANGE FROM B
+CHANGE FROM B
 git push (upload added files to git (online)) 
 git push origin <branch name>
 git push origin <branch name>:<branch name> (upload from branch to branch)
+
+
+CHANGE FROM B
+
 
 git add (adding files to commit(track))
 git reset (reseting added files)
